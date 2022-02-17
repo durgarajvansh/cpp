@@ -1,0 +1,24 @@
+// 1
+#include <iostream>
+using namespace std;
+
+int main(){
+    cout<<"Size of char is:"<<sizeof(char) <<"byte";
+    cout<<"Size of int is:"<<sizeof(int) <<"byte";
+    cout<<"Size of float is:"<<sizeof(float) <<"byte";
+    cout<<"Size of double is:"<<sizeof(double) <<"byte";
+}
+
+
+// 2
+
+#include <iostream>
+using namespace std;
+
+int main(){
+    int a,b;
+cout<<"Enter two numbers :";
+    cin>>a;
+    cin>>b;
+    cout<<"Product = "<< a*b;
+    }
